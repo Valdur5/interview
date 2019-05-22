@@ -1,4 +1,4 @@
-package de.pandigo.sumInList;
+package de.pandigo.arrays.sumInList;
 
 import java.util.ArrayList;
 import java.util.HashSet;

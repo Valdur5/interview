@@ -1,4 +1,4 @@
-package de.pandigo.sumInList;
+package de.pandigo.arrays.sumInList;
 
 public class Pair {
     private int number1;
