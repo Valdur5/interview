@@ -1,4 +1,4 @@
-package de.pandigo.graphs.connectedColors;
+package de.pandigo.graphs.dfs.connectedColors;
 
 import java.util.*;
 

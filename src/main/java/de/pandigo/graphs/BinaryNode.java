@@ -1,12 +1,12 @@
-package de.pandigo.graphs.findPathsWithSumInBinGraph;
+package de.pandigo.graphs;
 
-public class TreeGraph {
+public class BinaryNode {
 
     private int value;
-    private TreeGraph left;
-    private TreeGraph right;
+    private BinaryNode left;
+    private BinaryNode right;
 
-    public TreeGraph(int value, TreeGraph left, TreeGraph right) {
+    public BinaryNode(int value, BinaryNode left, BinaryNode right) {
         this.value = value;
         this.left = left;
         this.right = right;
@@ -20,19 +20,19 @@ public class TreeGraph {
         this.value = value;
     }
 
-    public TreeGraph getLeft() {
+    public BinaryNode getLeft() {
         return left;
     }
 
-    public void setLeft(TreeGraph left) {
+    public void setLeft(BinaryNode left) {
         this.left = left;
     }
 
-    public TreeGraph getRight() {
+    public BinaryNode getRight() {
         return right;
     }
 
-    public void setRight(TreeGraph right) {
+    public void setRight(BinaryNode right) {
         this.right = right;
     }
 }

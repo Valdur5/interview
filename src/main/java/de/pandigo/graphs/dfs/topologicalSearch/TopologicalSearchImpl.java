@@ -1,4 +1,4 @@
-package de.pandigo.graphs.topologicalSearch;
+package de.pandigo.graphs.dfs.topologicalSearch;
 
 import java.util.*;
 
