@@ -1,4 +1,4 @@
-package de.pandigo.tasks.reversePolishNotation;
+package de.pandigo.tasks.recursion.reversePolishNotation;
 
 import java.util.ArrayList;
 import java.util.Arrays;

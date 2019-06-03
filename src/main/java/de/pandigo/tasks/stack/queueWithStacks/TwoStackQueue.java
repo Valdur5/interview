@@ -1,4 +1,4 @@
-package de.pandigo.tasks.queueWithStacks;
+package de.pandigo.tasks.stack.queueWithStacks;
 
 import java.util.Stack;
 
