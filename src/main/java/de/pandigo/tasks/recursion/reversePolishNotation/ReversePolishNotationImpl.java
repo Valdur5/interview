@@ -4,6 +4,18 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+/**
+ * FEEDBACK FROM INTERVIEWER:
+ *
+ * The candidate does not use a stack. Modifies the array instead
+ * Hard to understand the code.
+ * Complex regex
+ * Naming could be better
+ * A lot of conversions from string to double and back to string again
+ *
+ * -> See ReversePolishNotationStackImpl for a better implementation.
+ */
+
 public class ReversePolishNotationImpl {
 
     // Regex expression to identify numbers.
