@@ -2,16 +2,16 @@ package de.pandigo.tasks.stack.queueWithStacks;
 
 import java.util.Stack;
 
-public class TwoStackQueue {
+public class TwoStackQueue<T> {
 
-    private Stack<Integer> enqueue = new Stack<>();
-    private Stack<Integer> dequeue = new Stack<>();
+    private Stack<T> enqueue = new Stack<>();
+    private Stack<T> dequeue = new Stack<>();
 
-    public void add(Integer number) {
+    public void add(T number) {
         enqueue.add(number);
     }
 
-    public Integer poll() {
+    public T poll() {
         if(dequeue.size() > 0) {
             return dequeue.pop();
         }
